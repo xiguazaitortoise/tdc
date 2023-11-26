@@ -1,0 +1,22 @@
+// `define TDC_SIM
+`define TDC_SYN
+`define HIT_FROM_IO
+// `define HIT_FROM_INTERNAL
+`define CLK_FREQ 200000000
+`define CHANNEL 2
+`define DATA_WIDTH 32
+`define ADDR_WIDTH 16
+`define INSTR_WIDTH 16
+
+
+`define VERSION 32'h20210710
+`define PAODUCT_MODEL 32'h00081451
+
+`define INSTR_HEAD     32'hFFFFBCBC
+`define INSTR_TAIL     32'hBCBCFFFF
+`define DATA_HEAD      16'hBABA
+`define DATA_TAIL      32'hAAAABBBB
+
+
+`define DNA_CHIP0      57'h05835C147A42854
+
